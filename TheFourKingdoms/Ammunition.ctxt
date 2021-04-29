@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Ammunition
+comment0.text=\r\n\ <h1>Ammunition\ Class</h1>\r\n\ \r\n\ Abstract\ superclass\ of\ all\ types\ of\ ammunition,\ initializes\ basic\ variables\ and\ includes\ functions\ necessary\ for\ the\ ammunition's\ functions.\r\n\ \r\n\ @author\ Brendan\ Chan,\ Andrew\ Qiao\r\n\ @version\ April\ 2021\r\n
+comment1.params=speed\ alliance\ target
+comment1.target=Ammunition(int,\ int,\ greenfoot.Actor)
+comment1.text=\r\n\ Initializes\ the\ ammunition's\ speed,\ alliance,\ and\ coordinates\ of\ its\ target.\r\n\ \r\n\ @param\ speed\ \ \ \ \ \ \ \ \ The\ speed\ of\ the\ ammunition\r\n\ @param\ alliance\ \ \ \ \ \ The\ alliance\ the\ ammunition\ belongs\ to\r\n\ @param\ target\ \ \ \ \ \ \ \ The\ target\ of\ the\ ammunition\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Called\ every\ method,\ checks\ if\ the\ ammunition\ has\ hit\ anything,\ and\ if\ not\ moves\ and\ checks\ if\ it\ is\ out\ of\ bounds.\r\n
+comment3.params=w
+comment3.target=void\ addedToWorld(greenfoot.World)
+comment3.text=\r\n\ Called\ when\ ammunition\ is\ added\ to\ the\ world,\ turns\ towards\ its\ target.\r\n\ \r\n\ @param\ w\ \ \ \ \ The\ World\ the\ ammunition\ is\ in\r\n
+comment4.params=
+comment4.target=boolean\ checkHit()
+comment4.text=\r\n\ Checks\ if\ the\ ammunition\ has\ hit\ anything,\ and\ if\ so\ removes\ itself\ from\ the\ world.\r\n\ \r\n\ @return\ boolean\ \ \ \ \ \ If\ the\ ammunition\ has\ hit\ anything\r\n
+comment5.params=
+comment5.target=void\ checkEdges()
+comment5.text=\r\n\ Checks\ if\ the\ ammunition\ has\ reaches\ the\ edges,\ and\ if\ so,\ removes\ itself\ from\ the\ world.\r\n
+numComments=6

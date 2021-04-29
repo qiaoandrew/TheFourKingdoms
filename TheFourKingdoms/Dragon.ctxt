@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Dragon
+comment0.text=\r\n\ <h1>Dragon\ Class</h1>\r\n\ \r\n\ Subclass\ of\ Troop\ superclass,\ shoots\ fireballs\ at\ both\ Troop\ and\ Establishments\ targets.\r\n\ Moves\ at\ a\ speed\ of\ 2,\ and\ can\ also\ move\ while\ shooting\ within\ a\ certain\ range.\r\n\ Shoots\ fireballs\ extremely\ quickly,\ and\ does\ splash\ damage\ to\ troops\ at\ the\ exact\ same\ \r\n\ position.\ Radius\ splash\ damage\ was\ removed\ as\ that\ made\ the\ troops\ and\ buildings\ unbalanced.\r\n\ Once\ fireballs\ reach\ a\ certain\ distance\ away\ from\ its\ dragon,\ they\ dissapear,\ recreating\r\n\ the\ real\ life\ effect.\ A\ sound\ is\ also\ played\ every\ 10\ fireballs,\ to\ make\ sure\ it\ doesn't\ \r\n\ get\ hectic.\ Once\ the\ dragon's\ health\ reaches\ 0\ or\ below,\ it\ will\ die,\ leaving\ behind\ a\ sound\r\n\ effect\ and\ a\ disappearing\ skull.\r\n\ \r\n\ @author\ Andrew\ Qiao\r\n\ @version\ April\ 2021\r\n
+comment1.params=alliance\ level\ chateau
+comment1.target=Dragon(int,\ int,\ Chateau)
+comment1.text=\r\n\ Constructor\ for\ Dragon\ class,\ calls\ superclass\ constructor,\ sets\ starting\ values\ of\ the\ dragon,\ and\ determines\ its\ image\ based\ on\ alliance.\r\n\ \r\n\ @param\ alliance\ \ \ \ \ \ \ \ \ \ \ \ \ \ Alliance\ dragon\ belongs\ to\ (0\ -\ Gold,\ 1\ -\ Blue)\r\n\ @param\ level\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Level\ of\ the\ dragon\r\n\ @param\ chateau\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Chateau\ dragon\ belongs\ to\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Called\ every\ act,\ finds\ the\ closest\ troop\ and\ establishment\ of\ the\ opposite\ alliance\ and\ determines\ whether\ to\ move,\ shoot\ a\ fireball,\ or\ both.\r\n
+comment3.params=a
+comment3.target=void\ shoot(greenfoot.Actor)
+comment3.text=\r\n\ Called\ for\ the\ dragon\ to\ shoot\ a\ fireball.\r\n\ \r\n\ @param\ a\ \ \ \ \ \ \ \ \ Actor\ which\ to\ shoot\ at\r\n
+comment4.params=alliance
+comment4.target=void\ setAlliance(int)
+comment4.text=\r\n\ Set\ the\ alliance\ of\ the\ dragon.\r\n\ \r\n\ @param\ alliance\ \ \ \ \ \ \ \ \ \ Alliance\ the\ dragon\ belongs\ to\ (0\ -\ Gold,\ 1\ -\ Blue)\r\n
+comment5.params=isCastleDestroyed
+comment5.target=void\ death(boolean)
+comment5.text=\r\n\ Called\ when\ a\ troop's\ HP\ is\ 0\ or\ below.\r\n\ \r\n\ @param\ isCastleDestroyed\ \ \ \ \ \ \ \ \ \ \ \ \ If\ the\ castle\ has\ been\ destroyed\r\n
+numComments=6

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Serpentine
+comment0.text=\r\n\ <h1>Serpentine\ Class</h1>\r\n\ \r\n\ Subclass\ of\ Troop\ superclass,\ shoots\ cannonballs\ at\ Establishment\ targets.\r\n\ Moves\ at\ a\ speed\ of\ 1,\ shoots\ hard-hitting\ cannonballs,\ but\ takes\ a\ while\ to\ reload.\r\n\ Only\ targets\ establishments,\ but\ can\ hit\ troops\ that\ are\ in\ its\ way.\ A\ cannonball\ sound\r\n\ effect\ is\ also\ played\ every\ shot.\ When\ the\ serpentine's\ health\ reaches\ 0\ or\ below\ an\ \r\n\ explosion\ sound\ effect\ will\ be\ played,\ along\ with\ a\ disappearing\ skull.\r\n\ \r\n\ @author\ Ryo\ Minakami,\ Andrew\ Qiao\r\n\ @version\ April\ 2021\r\n
+comment1.params=alliance\ level\ chateau
+comment1.target=Serpentine(int,\ int,\ Chateau)
+comment1.text=\r\n\ Constructor\ for\ Serpentine\ class,\ calls\ superclass\ constructor\ and\ sets\ properties\ for\ the\ Serpentine.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Called\ every\ act,\ determines\ the\ closest\ establishment\ and\ moves,\ reloads,\ or\ shoots\ accordingly.\r\n
+comment3.params=a
+comment3.target=void\ shoot(greenfoot.Actor)
+comment3.text=\r\n\ Called\ to\ shoot\ a\ cannonball.\r\n\ \r\n\ @param\ a\ \ \ \ \ \ \ \ \ Target\ to\ shoot\ cannonball\ at.\r\n
+comment4.params=isCastleDestroyed
+comment4.target=void\ death(boolean)
+comment4.text=\r\n\ Called\ when\ a\ troop's\ HP\ is\ 0\ or\ below.\r\n\ \r\n\ @param\ isCastleDestroyed\ \ \ \ \ \ \ \ \ \ \ \ \ If\ the\ castle\ has\ been\ destroyed\r\n
+numComments=5

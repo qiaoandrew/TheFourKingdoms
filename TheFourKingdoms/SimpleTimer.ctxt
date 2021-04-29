@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=SimpleTimer
+comment0.text=\r\n\ A\ simple\ timer\ class\ that\ allows\ you\ to\ keep\ track\ of\ how\ much\ time\r\n\ has\ passed\ between\ events.\r\n\ \r\n\ You\ use\ this\ class\ by\ creating\ a\ timer\ as\ a\ member\ field\ in\ your\ actor\ (or\ whatever)\:\r\n\ <pre>\r\n\ \r\n\ private\ SimpleTimer\ timer\ \=\ new\ SimpleTimer();\r\n\ </pre>\r\n\ \r\n\ Then\ when\ you\ want\ to\ start\ the\ timer\ (for\ example,\ when\ a\ shot\ is\ fired),\ you\ call\ the\ mark()\ method\:\r\n\ \r\n\ <pre>\r\n\ \r\n\ timer.mark();\r\n\ </pre>\r\n\ \r\n\ Thereafter,\ you\ can\ use\ the\ millisElapsed()\ method\ to\ find\ out\ how\ long\ it's\ been\ since\ mark()\r\n\ was\ called\ (in\ milliseconds,\ i.e.\ thousandths\ of\ a\ second).\ \ So\ if\ you\ want\ to\ only\ allow\ the\ player\ to\ fire\ a\ shot\ every\ second,\ you\r\n\ could\ write\:\r\n\ \r\n\ <pre>\r\n\ \r\n\ if\ (timer.millisElapsed()\ >\ 1000\ &&\ Greenfoot.isKeyDown("space"))\r\n\ {\r\n\ \ \ \ \ //\ Code\ here\ for\ firing\ a\ new\ shot\r\n\ \ \ \ \ timer.mark();\ //\ Reset\ the\ timer\r\n\ }\r\n\ </pre>\r\n\ \r\n\ @author\ Neil\ Brown\r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=void\ mark()
+comment1.text=\r\n\ Marks\ the\ current\ time.\ \ You\ can\ then\ in\ future\ call\r\n\ millisElapsed()\ to\ find\ out\ the\ elapsed\ milliseconds\r\n\ since\ this\ mark()\ call\ was\ made.\r\n\ \r\n\ A\ second\ mark()\ call\ will\ reset\ the\ mark,\ and\ millisElapsed()\r\n\ will\ start\ increasing\ from\ zero\ again.\r\n
+comment2.params=
+comment2.target=int\ millisElapsed()
+comment2.text=\r\n\ Returns\ the\ amount\ of\ milliseconds\ that\ have\ elapsed\ since\ mark()\r\n\ was\ last\ called.\ \ This\ timer\ runs\ irrespective\ of\ Greenfoot's\r\n\ act()\ cycle,\ so\ if\ you\ call\ it\ many\ times\ during\ the\ same\ Greenfoot\ frame,\r\n\ you\ may\ well\ get\ different\ answers.\r\n
+numComments=3

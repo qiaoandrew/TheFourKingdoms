@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=EndScreen
+comment0.text=\r\n\ <h1>EndScreen\ Class</h1>\r\n\ \r\n\ The\ World\ that\ is\ displayed\ after\ the\ simulation\ finishes,\ showing\ which\ kingdom\ won\ and\ how\ long\ it\ took.\r\n\ Also\ displays\ a\ button\ for\ users\ to\ restart\ the\ simulation.\r\n\ Vibrant\ and\ energetic\ victory\ music\ is\ also\ played,\ adding\ to\ the\ audience's\ enjoyment.\r\n\ \r\n\ @author\ Andrew\ Qiao,\ Mr.\ Cohen\r\n\ @version\ April\ 2021\r\n
+comment1.params=winnerName\ timeMillis
+comment1.target=EndScreen(java.lang.String,\ int)
+comment1.text=\r\n\ Creates\ an\ ending\ screen\ based\ on\ parameters\ of\ the\ kingdom\ who\ won's\ name\ and\ the\ time\ the\ simulation\ took\ in\ milliseconds.\r\n\ \r\n\ @param\ winnerName\ \ \ \ \ \ \ \ String,\ the\ kingdom\ that\ won's\ name\r\n\ @param\ timeMillis\ \ \ \ \ \ \ \ Time\ the\ simulation\ took\ in\ milliseconds\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Called\ every\ act,\ checks\ if\ the\ user\ has\ clicked\ the\ button\ to\ restart\ the\ simulation.\r\n
+comment3.params=value\ digits
+comment3.target=java.lang.String\ zeroAdder(int,\ int)
+comment3.text=\r\n\ Method\ that\ aids\ in\ the\ appearance\ of\ the\ scoreboard\ by\ generating\r\n\ Strings\ that\ fill\ in\ zeros\ before\ the\ score.\ For\ example\:\r\n\ \r\n\ 27\ \=\=\=>\ to\ 5\ digits\ \=\=\=>\ 00027\r\n\ \r\n\ @param\ \ \ value\ \ \ integer\ value\ to\ use\ for\ score\ output\r\n\ @param\ \ \ digits\ \ \ number\ of\ zeros\ desired\ in\ the\ return\ String\r\n\ @return\ \ String\ \ built\ score,\ ready\ for\ display\r\n
+comment4.params=number
+comment4.target=int\ digitCounter(int)
+comment4.text=\r\n\ Useful\ private\ method\ that\ counts\ the\ digit\ in\ any\ integer.\r\n\ \r\n\ @param\ number\ \ \ \ The\ number\ whose\ digits\ you\ want\ to\ count\r\n\ @return\ \ int\ \ \ \ \ The\ number\ of\ digits\ in\ the\ given\ number\r\n
+numComments=5

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=TextLabel
+comment0.text=\r\n\ <h1>TextLabel\ Class</h1>\r\n\ \r\n\ A\ simple\ customizable\ text\ label\ that\ displays\ text.\r\n\ \r\n\ @author\ Andrew\ Qiao,\ Ryo\ Minakami\r\n\ @version\ April\ 2021\r\n
+comment1.params=text\ fontSize\ padding\ foreground\ background
+comment1.target=TextLabel(java.lang.String,\ int,\ int,\ greenfoot.Color,\ greenfoot.Color)
+comment1.text=\r\n\ Constructor\ for\ the\ TextLabel\ class,\ sets\ the\ values\ for\ the\ instance\ variables\ and\ calls\ update.\r\n\ \r\n\ @param\ text\ \ \ \ \ \ \ \ \ \ \ \ \ \ Text\ that\ will\ be\ displayed\ on\ the\ label\r\n\ @param\ fontSize\ \ \ \ \ \ \ \ \ \ Size\ of\ the\ font\ of\ the\ text\r\n\ @param\ foreground\ \ \ \ \ \ \ \ Color\ of\ the\ text\r\n\ @param\ background\ \ \ \ \ \ \ \ Color\ of\ the\ background\r\n
+comment2.params=
+comment2.target=void\ update()
+comment2.text=\r\n\ Called\ to\ draw\ out\ the\ parts\ of\ the\ text\ label\ image.\r\n
+numComments=3

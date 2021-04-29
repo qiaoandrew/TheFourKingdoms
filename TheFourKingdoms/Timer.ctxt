@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Timer
+comment0.text=\r\n\ <h1>Timer\ Class</h1>\r\n\ \r\n\ A\ simple\ timer\ that\ keeps\ track\ of\ the\ time\ before\ a\ Troop\ is\ finished\ training.\r\n\ Is\ also\ semi-transparent\ so\ that\ users\ can\ see\ more\ of\ the\ garrison's\ image.\r\n\ \r\n\ @author\ Andrew\ Qiao,\ Brendan\ Chan\r\n\ @version\ April\ 2021\r\n
+comment1.params=timeInMillis
+comment1.target=Timer(int)
+comment1.text=\r\n\ Constructor\ for\ Timer\ class,\ sets\ starting\ values\ of\ instance\ variable,\ initializes\ the\ SimpleTimer\ and\ updates\ itself\ to\ display\ a\ visual.\r\n\ \r\n\ @param\ timeInMillis\ \ \ \ \ \ \ \ \ \ \ \ \ \ Time\ in\ milliseconds\ left\ on\ the\ timer\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Called\ every\ act,\ calls\ the\ method\ to\ update\ the\ visuals\ of\ the\ timer.\r\n
+comment3.params=
+comment3.target=void\ update()
+comment3.text=\r\n\ Called\ to\ update\ the\ visuals\ of\ the\ Timer,\ redraws\ the\ different\ elements\ and\ displays\ them\ together.\r\n
+numComments=4

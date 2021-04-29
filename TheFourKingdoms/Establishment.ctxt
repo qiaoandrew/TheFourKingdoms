@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Establishment
+comment0.text=\r\n\ <h1>Establishment\ Class</h1>\r\n\ \r\n\ Abstract\ superclass\ for\ all\ establishments,\ including\ the\ Chateau,\ Garrison,\ and\ Treasury.\ \r\n\ Includes\ basic\ functions\ that\ are\ used\ by\ each\ type\ of\ establishment,\ such\ as\ returning\ and\ setting\r\n\ the\ alliance\ and\ getting\ hit\ by\ troops.\r\n\ \r\n\ @author\ Andrew\ Qiao,\ James\ Li\r\n\ @version\ April\ 2021\r\n
+comment1.params=maxHP\ alliance
+comment1.target=Establishment(int,\ int)
+comment1.text=\r\n\ Constructor\ for\ Establishment\ class,\ sets\ its\ starting\ variables.\r\n\ \r\n\ @param\ maxHP\ \ \ \ \ \ \ \ \ The\ maximum\ HP\ the\ establishment\ can\ have\r\n\ @param\ alliance\ \ \ \ \ \ The\ alliance\ the\ establishment\ belongs\ to,\ 0\ is\ gold,\ 1\ is\ blue\r\n
+comment2.params=
+comment2.target=int\ getAlliance()
+comment2.text=\r\n\ Getter\ method,\ returns\ the\ alliance\ variable.\r\n\ \r\n\ @return\ alliance\ \ \ \ \ The\ alliance\ of\ the\ establishment\r\n
+comment3.params=alliance
+comment3.target=void\ setAlliance(int)
+comment3.text=\r\n\ Setter\ method,\ sets\ the\ alliance\ of\ the\ establishment.\r\n\ \r\n\ @param\ alliance\ \ \ \ \ \ The\ alliance\ of\ the\ establishment\r\n
+comment4.params=damage
+comment4.target=void\ hit(int)
+comment4.text=\r\n\ Called\ by\ troops\ when\ the\ establishment\ gets\ hit,\ decreases\ HP,\ changes\ the\ properties\ of\ its\ health\ bar,\ and\ checks\ if\ HP\ has\ reached\ below\ 0\ accordingly.\r\n\ \r\n\ @param\ damage\ \ \ \ \ \ \ \ The\ amount\ of\ damage\ that\ has\ been\ done\ to\ the\ establishment\r\n
+comment5.params=
+comment5.target=void\ explode()
+comment5.text=\r\n\ Called\ when\ the\ establishment's\ HP\ reached\ below\ 0,\ abstract\ as\ each\ establishment\ acts\ differently.\r\n
+numComments=6

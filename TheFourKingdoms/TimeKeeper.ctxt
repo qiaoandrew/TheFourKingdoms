@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=TimeKeeper
+comment0.text=\r\n\ <h1>TimeKeeper\ Class</h1>\r\n\ \r\n\ A\ simple\ time\ keeper\ that\ keeps\ track\ of\ the\ time\ based\ on\ input\ in\ milliseconds.\r\n\ \r\n\ @author\ Andrew\ Qiao,\ James\ Li\r\n\ @verison\ April\ 2021\r\n
+comment1.params=millis\ fontSize\ padding\ foreground\ background\ transparency
+comment1.target=TimeKeeper(int,\ int,\ int,\ greenfoot.Color,\ greenfoot.Color,\ int)
+comment1.text=\r\n\ Constructor\ for\ TimeKeeper\ class,\ calculates\ time\ information,\ sets\ instance\ variables\ and\ calls\ the\ method\ to\ update\ the\ TimeKeeper's\ visuals.\r\n\ \r\n\ @param\ millis\ \ \ \ \ \ \ \ \ \ \ \ Time\ in\ millis\ to\ be\ displayed\r\n\ @param\ fontSize\ \ \ \ \ \ \ \ \ \ Size\ of\ the\ font\ for\ the\ text\r\n\ @param\ padding\ \ \ \ \ \ \ \ \ \ \ Padding\ around\ the\ text\r\n\ @param\ foreground\ \ \ \ \ \ \ \ Color\ of\ the\ text\r\n\ @param\ background\ \ \ \ \ \ \ \ Color\ of\ the\ background\r\n\ @param\ transparency\ \ \ \ \ \ Transparency\ of\ the\ TimeKeeper\r\n
+comment2.params=millis
+comment2.target=void\ update(int)
+comment2.text=\r\n\ Called\ to\ update\ the\ amount\ of\ milliseconds\ that\ will\ be\ displayed.\r\n\ \r\n\ @param\ millis\ \ \ \ \ \ \ \ \ \ \ \ The\ number\ of\ milliseconds\ to\ be\ displayed\r\n
+comment3.params=
+comment3.target=void\ update()
+comment3.text=\r\n\ Called\ to\ update\ the\ visuals\ of\ the\ TimeKeeper.\r\n
+comment4.params=value\ digits
+comment4.target=java.lang.String\ zeroAdder(int,\ int)
+comment4.text=\r\n\ Method\ that\ aids\ in\ the\ appearance\ of\ the\ scoreboard\ by\ generating\r\n\ Strings\ that\ fill\ in\ zeros\ before\ the\ score.\ For\ example\:\r\n\ \r\n\ 27\ \=\=\=>\ to\ 5\ digits\ \=\=\=>\ 00027\r\n\ \r\n\ @param\ \ \ value\ \ \ integer\ value\ to\ use\ for\ score\ output\r\n\ @param\ \ \ digits\ \ \ number\ of\ zeros\ desired\ in\ the\ return\ String\r\n\ @return\ \ String\ \ built\ score,\ ready\ for\ display\r\n
+comment5.params=number
+comment5.target=int\ digitCounter(int)
+comment5.text=\r\n\ Useful\ private\ method\ that\ counts\ the\ digit\ in\ any\ integer.\r\n\ \r\n\ @param\ number\ \ \ \ The\ number\ whose\ digits\ you\ want\ to\ count\r\n\ @return\ \ int\ \ \ \ \ The\ number\ of\ digits\ in\ the\ given\ number\r\n
+numComments=6

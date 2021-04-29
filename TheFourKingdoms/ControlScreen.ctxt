@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=ControlScreen
+comment0.text=\r\n\ <h1>ControlScreen\ Class</h1>\r\n\ \r\n\ The\ World\ where\ the\ user\ is\ able\ to\ change\ certain\ parameters\ that\ will\ affect\ the\ simulation.\r\n\ This\ is\ done\ through\ the\ use\ of\ many\ buttons,\ accompanied\ by\ text\ labels\ to\ tell\ the\ user\ what\r\n\ each\ button\ is\ for.\r\n\ Also\ includes\ a\ cool\ background\ graphic\ and\ an\ intriguing\ soundtrack,\ further\ drawing\ in\ players.\r\n\ \r\n\ @author\ Andrew\ Qiao\r\n\ @version\ April\ 2021\r\n
+comment1.params=
+comment1.target=ControlScreen()
+comment1.text=\r\n\ Constructor\ for\ ControlScreen,\ initializes\ all\ the\ labels\ and\ text\ buttons\ to\ add\ to\ the\ world.\ \r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Called\ every\ act,\ checks\ if\ the\ user\ has\ clicked\ any\ button,\ and\ acts\ accordingly.\r\n
+numComments=3

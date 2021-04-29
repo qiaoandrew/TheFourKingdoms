@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Treasury
+comment0.text=\r\n\ <h1>Treasury\ Class</h1>\r\n\ \r\n\ Subclass\ of\ Establishment\ superclass,\ creates\ money\ for\ the\ kingdom.\r\n\ Every\ two\ seconds\ is\ a\ cycle,\ when\ money\ will\ be\ added.\r\n\ Has\ three\ levels,\ can\ be\ upgraded\ by\ the\ Chateau.\ Once\ upgraded,\ more\ money\ will\ be\ produced\ every\ cycle.\r\n\ \r\n\ @author\ Andrew\ Qiao\r\n\ @version\ April\ 2021\r\n
+comment1.params=hp\ alliance\ chateau
+comment1.target=Treasury(int,\ int,\ Chateau)
+comment1.text=\r\n\ Constructor\ for\ Treasury\ class,\ calls\ its\ superclass\ constructor,\ sets\ the\ image,\ sets\ instance\ variables,\ and\ starts\ the\ timer.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Called\ ever\ act,\ determines\ if\ a\ cycle\ is\ complete,\ if\ so,\ adds\ money\ to\ the\ chateau.\r\n
+comment3.params=
+comment3.target=void\ levelUp()
+comment3.text=\r\n\ Called\ to\ level\ up\ the\ treasury\ and\ change\ its\ image\ accordingly.\r\n
+comment4.params=
+comment4.target=void\ explode()
+comment4.text=\r\n\ Called\ when\ the\ HP\ of\ thre\ treasury\ reaches\ below\ 0,\ adds\ rubble,\ removes\ the\ treasury\ from\ the\ ArrayList\ of\ treasuries,\ and\ removes\ the\ treasury\ from\ the\ world.\r\n
+comment5.params=
+comment5.target=void\ castleDestroyed()
+comment5.text=\r\n\ Called\ when\ the\ castle\ that\ the\ treasury\ belongs\ to\ has\ been\ destroyed,\ does\ mostly\ the\ same\ thing\ as\ the\ explode()\ method\ except\ it\ doesn't\ remove\ the\ treasury\ from\ the\ ArrayList\ of\ treasuries,\ as\ the\ chateau\ does\ that.\r\n
+comment6.params=
+comment6.target=int\ getLevel()
+comment6.text=\r\n\ Returns\ the\ current\ level\ of\ the\ Treasury.\r\n\ \r\n\ @return\ int\ \ \ \ \ \ \ \ \ \ The\ current\ level\ of\ the\ treasury\r\n
+numComments=7

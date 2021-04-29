@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Fireball
+comment0.text=\r\n\ <h1>Fireball\ Class</h1>\r\n\ \r\n\ Fireball\ ammunition,\ ammunition\ used\ by\ the\ Dragon\ troop,\ deals\ limited\ splash\ damage.\r\n\ The\ damage\ per\ fireball\ is\ quite\ low,\ and\ can\ be\ increased\ by\ leveling\ up\ barracks.\r\n\ Limited\ splash\ damage\ means\ if\ multiple\ troops\ are\ at\ the\ exact\ location,\ they\ will\ all\ be\ hit.\r\n\ Splash\ damage\ within\ a\ radius\ was\ originally\ used,\ but\ that\ produced\ an\ unbalance\ in\ the\ simulation.\r\n\ \r\n\ @author\:\ Andrew\ Qiao\r\n\ @version\:\ April\ 2021\r\n
+comment1.params=alliance\ target\ level\ dragon
+comment1.target=Fireball(int,\ greenfoot.Actor,\ int,\ Dragon)
+comment1.text=\r\n\ Constructor\ for\ Fireball\ ammunition,\ initializes\ its\ variables\ and\ objects.\r\n\ \r\n\ @param\ alliance\ \ \ \ \ \ The\ alliance\ it\ belongs\ to\r\n\ @param\ target\ \ \ \ \ \ \ \ The\ target\ of\ the\ fireball\r\n\ @param\ level\ \ \ \ \ \ \ \ \ The\ level\ of\ the\ fireball\r\n\ @param\ dragon\ \ \ \ \ \ \ \ The\ dragon\ the\ fireball\ belongs\ to\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Called\ every\ act,\ checks\ if\ anything\ has\ been\ hit,\ and\ if\ not,\ moves\ and\ checks\ its\ position\ in\ the\ world.\r\n
+comment3.params=
+comment3.target=boolean\ checkHit()
+comment3.text=\r\n\ Checks\ if\ anything\ has\ been\ hit\ by\ the\ fireball,\ and\ returns\ a\ boolean\ accordingly.\ If\ it\ has\ hit\ anything\ on\ the\ opposite\ alliance,\ it\ will\ remove\ itself.\r\n
+comment4.params=
+comment4.target=void\ checkOutOfRange()
+comment4.text=\r\n\ Checks\ if\ the\ Fireball\ is\ more\ than\ or\ equal\ to\ 200\ pixels\ away\ from\ its\ host\ dragon,\ if\ so,\ it\ gets\ removed\ from\ the\ world.\r\n
+numComments=5

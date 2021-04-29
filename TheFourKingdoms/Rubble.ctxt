@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Rubble
+comment0.text=\r\n\ <h1>Rubble\ Class</h1>\r\n\ \r\n\ Explosion\ animation\ and\ subsequent\ rubble\ that\ is\ displayed\ when\ an\ establishment\ is\ destroyed.\r\n\ Includes\ a\ super\ cool\ 26\ frame\ animation.\r\n\ \r\n\ @author\ Andrew\ Qiao\r\n\ @version\ April\ 2021\r\n
+comment1.params=
+comment1.target=Rubble()
+comment1.text=\r\n\ Constructor\ for\ the\ Rubble\ class,\ sets\ the\ starting\ values\ of\ the\ instance\ variabels\ and\ the\ starting\ image.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Called\ every\ act,\ determines\ when\ to\ change\ frames\ and\ when\ to\ display\ the\ image\ of\ the\ rubble.\r\n
+numComments=3

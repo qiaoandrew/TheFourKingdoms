@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Cannonball
+comment0.text=\r\n\ <h1>Cannonball\ Class</h1>\r\n\ \r\n\ Cannonball\ ammunition,\ the\ ammunition\ used\ by\ Serpentine\ troops,\ deals\ damage\ to\ a\ single\ object.\r\n\ A\ relatively\ hard-hitting\ projectile,\ and\ its\ damange\ can\ be\ increased\ with\ an\ increase\ of\ troop\ level.\r\n\ \r\n\ @author\:\ Brendan\ Chan\r\n
+comment1.params=alliance\ target\ level
+comment1.target=Cannonball(int,\ greenfoot.Actor,\ int)
+comment1.text=\r\n\ Constructor\ for\ cannonball\ class,\ initalizes\ necessary\ variables\r\n\ \r\n\ @param\ alliance\ \ \ \ \ \ The\ alliance\ of\ the\ cannonball\r\n\ @param\ target\ \ \ \ \ \ \ \ The\ target\ that\ the\ cannonball\ is\ travelling\ towards\r\n\ @param\ level\ \ \ \ \ \ \ \ \ Level\ of\ troop\ that\ the\ cannonball\ came\ from,\ determine's\ its\ damage\r\n
+numComments=2

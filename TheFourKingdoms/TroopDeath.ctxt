@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=TroopDeath
+comment0.text=\r\n\ <h1>TroopDeath\ Class</h1>\r\n\ \r\n\ Created\ when\ a\ troop\ dies.\ Displays\ a\ skull\ that\ grows\ more\ and\ more\ transparent\ until\ it\ eventually\ gets\ removed.\r\n\ \r\n\ @author\ Group\ 1,\ Mr.\ Cohen\r\n\ @version\ April\ 2021\r\n
+comment1.params=
+comment1.target=TroopDeath()
+comment1.text=\r\n\ Constructor\ for\ TroopDeath\ class,\ creates\ the\ image\ of\ the\ skull.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Called\ every\ act,\ subtracts\ from\ the\ transparency,\ removes\ the\ object\ after\ the\ transparency\ reaches\ below\ 5.\r\n
+numComments=3

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=StartScreen
+comment0.text=\r\n\ <h1>StartScreen\ Class</h1>\r\n\ \r\n\ The\ World\ that\ is\ shown\ at\ the\ very\ start\ of\ the\ simulation.\r\n\ A\ graphic\ is\ displayed\ to\ greet\ the\ players,\ and\ also\ includes\ a\ button\ that\ can\ be\ clicked\ to\ enter\ the\ next\ StoryScreen.\r\n\ Includes\ captivating\ and\ intense\ background\ music,\ allowing\ players\ to\ be\ drawn\ in.\r\n\ \r\n\ @author\ Andrew\ Qiao\r\n\ @version\ April\ 2021\r\n
+comment1.params=
+comment1.target=StartScreen()
+comment1.text=\r\n\ Constructor\ for\ Startscreen,\ creates\ the\ world,\ and\ the\ button.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Method\ that\ is\ called\ every\ act,\ continuously\ checks\ if\ the\ startButton\ has\ been\ pressed.\r\n
+comment3.params=
+comment3.target=void\ started()
+comment3.text=\r\n\ This\ method\ is\ called\ when\ the\ program\ starts,\ looping\ the\ soundtrack.\r\n
+numComments=4

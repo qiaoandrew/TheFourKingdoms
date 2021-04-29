@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=StoryScreen
+comment0.text=\r\n\ <h1>StoryScreen\ Class</h1>\r\n\ \r\n\ The\ World\ that\ explains\ to\ the\ user\ the\ backstory\ of\ the\ conflict\ through\ images\ of\ text,\ finishing\ by\ showing\ a\ CONTINUE\!\ button.\r\n\ Also\ has\ an\ intense\ soundtrack\ playing,\ allowing\ players\ to\ mentally\ submerge\ themselves\ into\ the\ world\ of\ the\ simulation.\r\n\ \r\n\ @author\ Andrew\ Qiao\r\n\ @version\ April\ 2021\r\n
+comment1.params=
+comment1.target=StoryScreen()
+comment1.text=\r\n\ Constructor\ for\ StoryScreen,\ initalizes\ dimensions\ and\ actCount,\ also\ starts\ playing\ the\ soundtrack.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Called\ every\ act,\ determines\ if\ and\ when\ to\ draw\ the\ image\ parts,\ as\ well\ as\ when\ to\ display\ the\ button.\r\n
+numComments=3

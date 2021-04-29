@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Scoreboard
+comment0.text=\r\n\ <h1>Scoreboard\ Class</h1>\r\n\ \r\n\ Each\ kingdom\ possesses\ a\ scoreboard,\ which\ displays\ the\ name\ of\ the\ kingdom,\ the\ current\ amount\ of\ money\ it\ possesses,\ \r\n\ the\ current\ number\ of\ troops,\ and\ current\ number\ of\ establishments.\r\n\ The\ background\ also\ changes\ between\ blue\ and\ yellow\ based\ upon\ the\ current\ alliance.\r\n\ \r\n\ @author\ Mr.\ Cohen,\ Andrew\ Qiao,\ James\ Li\r\n\ @version\ April\ 2021\r\n
+comment1.params=title\ titleFontSize\ fontSize\ money\ currentTroops\ currentEstablishments\ paddingAround\ paddingBetween\ transparency\ foreground\ background
+comment1.target=Scoreboard(java.lang.String,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ int,\ greenfoot.Color,\ greenfoot.Color)
+comment1.text=\r\n\ Constructor\ for\ scoreboard\ class,\ sets\ values\ of\ variables,\ draws\ the\ different\ images,\ determines\ its\ height\ and\ width,\ and\ calls\ method\ to\ update.\r\n\ \r\n\ @param\ title\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Title\ of\ the\ scoreboard\r\n\ @param\ titleFontSize\ \ \ \ \ \ \ \ \ \ \ \ \ Font\ size\ of\ the\ title\r\n\ @param\ fontSize\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Font\ size\ of\ the\ rest\ of\ the\ text\r\n\ @param\ money\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Amount\ of\ money\ the\ kingdom\ currently\ has\r\n\ @param\ currentTroops\ \ \ \ \ \ \ \ \ \ \ \ \ Number\ of\ troops\ the\ kingdom\ currently\ has\r\n\ @param\ currentEstablishments\ \ \ \ \ Number\ of\ establishments\ the\ kingdom\ currently\ has\r\n\ @param\ paddingAround\ \ \ \ \ \ \ \ \ \ \ \ \ Amount\ of\ padding\ around\ the\ text\r\n\ @param\ paddingBetween\ \ \ \ \ \ \ \ \ \ \ \ Amount\ of\ padding\ between\ the\ text\r\n\ @param\ transparency\ \ \ \ \ \ \ \ \ \ \ \ \ \ Transparency\ of\ the\ scoreboard\r\n\ @param\ foreground\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Color\ of\ the\ text\r\n\ @param\ background\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Color\ of\ the\ background\r\n
+comment2.params=money\ currentTroops\ currentEstablishments
+comment2.target=void\ update(int,\ int,\ int)
+comment2.text=\r\n\ Called\ to\ update\ the\ current\ amount\ of\ money,\ troops\ and\ establishments\ a\ kingdom\ has.\r\n\ \r\n\ @param\ money\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Current\ amount\ of\ money\ a\ kingdom\ has\r\n\ @param\ currentTroops\ \ \ \ \ \ \ \ \ \ \ \ \ Current\ number\ of\ troops\ a\ kingdom\ has\r\n\ @param\ currentEstablishments\ \ \ \ \ Current\ number\ of\ establishments\ a\ kingdom\ has\r\n
+comment3.params=
+comment3.target=void\ update()
+comment3.text=\r\n\ Called\ to\ update\ the\ scoreboard's\ visuals.\r\n
+comment4.params=transparency
+comment4.target=void\ setTransparency(int)
+comment4.text=\r\n\ Sets\ the\ transparency\ of\ the\ scoreboard\ and\ updates.\r\n\ \r\n\ @param\ transparency\ \ \ \ \ \ \ \ \ \ Transparency\ of\ the\ scoreboard\r\n
+comment5.params=color
+comment5.target=void\ setBackgroundColor(greenfoot.Color)
+comment5.text=\r\n\ Sets\ the\ background\ color\ of\ the\ scoreboard.\r\n\ \r\n\ @param\ color\ \ \ \ \ \ \ \ \ \ \ \ \ Background\ color\ of\ the\ scoreboard\r\n
+comment6.params=value\ digits
+comment6.target=java.lang.String\ zeroAdder(int,\ int)
+comment6.text=\r\n\ Method\ that\ aids\ in\ the\ appearance\ of\ the\ scoreboard\ by\ generating\r\n\ Strings\ that\ fill\ in\ zeros\ before\ the\ score.\ For\ example\:\r\n\ \r\n\ 27\ \=\=\=>\ to\ 5\ digits\ \=\=\=>\ 00027\r\n\ \r\n\ @param\ \ \ value\ \ \ integer\ value\ to\ use\ for\ score\ output\r\n\ @param\ \ \ digits\ \ \ number\ of\ zeros\ desired\ in\ the\ return\ String\r\n\ @return\ \ String\ \ built\ score,\ ready\ for\ display\r\n
+comment7.params=number
+comment7.target=int\ digitCounter(int)
+comment7.text=\r\n\ Useful\ private\ method\ that\ counts\ the\ digit\ in\ any\ integer.\r\n\ \r\n\ @param\ number\ \ \ \ The\ number\ whose\ digits\ you\ want\ to\ count\r\n\ @return\ \ int\ \ \ \ \ The\ number\ of\ digits\ in\ the\ given\ number\r\n
+numComments=8
