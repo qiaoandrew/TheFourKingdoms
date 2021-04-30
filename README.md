@@ -10,14 +10,14 @@ As the name suggests, the simulation includes four kingdoms, one situated in eac
 
 Users have the option in the control screen to determine which kingdoms belong to which alliance, as well as the starting amount of money each kingdom has.
 
-![Control Screen](TheFourKingdoms/images/control-screen.png "TheFourKingdoms Control Screen")
+![Control Screen](TheFourKingdoms/images/control-screen.png "TheFourKingdoms Control Screen"=250x)
 
 Each kingdom starts off with a chateau, two treasuries, and two garrisons. The role of the chateau is to act as the center of command for the kingdom, determining when to upgrade establishments or create troops. Treasuries, on the other hand, create money for the kingdom. This money can then be used to create troops or upgrade establishments. Finally, the garrion has the role of training the troops.
 
-![Simulation Screen](TheFourKingdoms/images/simulation-screen.png "TheFourKingdoms Simulation")
+![Simulation Screen](TheFourKingdoms/images/simulation-screen.png "TheFourKingdoms Simulation"=250x)
 
 The troops, the serpentine and the dragon, are used to destroy the establishments of the other kingdoms. Once the chateau of a kingdom has been destroyed, all its troops, along with its other establishments will be destroyed as well, wiping out the kingdom.
 
 If an alliance is wiped out, meaning all the chateaus of the kingdoms belonging to an alliance have been destroyed, new alliances will be formed, continuing until there is one kingdom left.
 
-![Ending Screen](TheFourKingdoms/images/ending-screen.png "TheFourKingdoms Simulation")
+![Ending Screen](TheFourKingdoms/images/ending-screen.png "TheFourKingdoms Simulation"=250x)
