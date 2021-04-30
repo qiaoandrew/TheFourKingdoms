@@ -21,7 +21,7 @@ import java.util.ArrayList; //Import ArrayList from java.util
  * 
  * <h3>Important elements:</h3>
  * <ul>
- *      <li>Four seperate soundtracks that play throughout the simulation for each of the stages. Consult the credits section below for their names and credits</li>
+ *      <li>Five seperate soundtracks that play throughout the simulation for each of the stages. Consult the credits section below for their names and credits</li>
  *      <li>A starting screen that greets players with powerful music and attractive graphics</li>
  *      <li>A story screen explaining to the players the reasoning behind the conflict, with some more powerful music, allowing players to submerge themselves mentally to the simulation</li>
  *      <li>Control screen that allows players to choose the starting alliances and starting money for each kingdom</li>
@@ -69,8 +69,8 @@ import java.util.ArrayList; //Import ArrayList from java.util
  * <ul>
  *      <li>Ashes on the Fire Soundtrack (plays during the WarWorld): Kohta Yamamoto</li>
  *      <li>Attack on Titan Soundtrack (plays during the StoryScreen): Hiroyuki Sawano</li>
- *      <li>Bird in a Cage Soundtrack (plays during the EndScreen): Hiroyuki Sawano</li>
- *      <li>Wings of Freedom Soundtrack (plays during the StartScreen): Hiroyuki Sawano</li>
+ *      <li>Bird in a Cage Soundtrack (plays during the StartScreen): Hiroyuki Sawano</li>
+ *      <li>Wings of Freedom Soundtrack (plays during the EndScreen): Hiroyuki Sawano</li>
  *      <li>Apple Seed Soundtrack (plays during the ControlScreen): Hiroyuki Sawano</li>
  *      <li>Clash of Clans Sound Effects: Supercell Oy</li>
  *      <li>Explosion sound effect: Renato Ottlakan</li>
