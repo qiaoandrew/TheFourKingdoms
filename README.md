@@ -1,6 +1,8 @@
 # The Four Kingdoms
 A fantasy/medieval style simulation, created for my ICS4U class. Enjoy!
 
+Website: [The Four Kingdoms](https://sites.google.com/view/the-fourkingdoms)
+
 ![Start Screen](TheFourKingdoms/images/startscreen.png "TheFourKingdoms Start Screen")
 
 ## A Quick Overview...
