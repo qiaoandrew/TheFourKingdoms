@@ -1,15 +1,14 @@
 # The Four Kingdoms
 A fantasy/medieval style simulation, created for my ICS4U class. Enjoy!
 
-Visit the website! (Must be logged into personal Google account) <br>
-[The Four Kingdoms](https://sites.google.com/view/the-fourkingdoms)
-
-![Start Screen](TheFourKingdoms/images/start-screen.png "TheFourKingdoms Start Screen")
+Visit the [website](https://sites.google.com/view/the-fourkingdoms)! (Must be logged into personal Google account)
 
 ## Running the Scenario...
 1. Download [Greenfoot](https://www.greenfoot.org/download) (Greenfoot is an IDE for creating games and simulations).
 2. Download the [TheFourKingdoms.gfar](TheFourKingdoms.gfar) file.
 3. Open the TheFourKingdoms.gfar file. This will create a folder with all the classes and other assets.
+
+![Start Screen](TheFourKingdoms/images/start-screen.png "TheFourKingdoms Start Screen")
 
 ## A Quick Overview...
 As the name suggests, the simulation includes four kingdoms, one situated in each corner. At the beginning, the four kingdoms are divided into two alliances, blue and gold.
