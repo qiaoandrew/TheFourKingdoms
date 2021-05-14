@@ -6,6 +6,11 @@ Visit the website! (Must be logged into personal Google account) <br>
 
 ![Start Screen](TheFourKingdoms/images/start-screen.png "TheFourKingdoms Start Screen")
 
+## Running the Scenario...
+1. Download [Greenfoot](https://www.greenfoot.org/download) (Greenfoot is an IDE for creating games and simulations).
+2. Download the [TheFourKingdoms.gfar](TheFourKingdoms.gfar) file.
+3. Open the TheFourKingdoms.gfar file. This will create a folder with all the classes and other assets.
+
 ## A Quick Overview...
 As the name suggests, the simulation includes four kingdoms, one situated in each corner. At the beginning, the four kingdoms are divided into two alliances, blue and gold.
 
